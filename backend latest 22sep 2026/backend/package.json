@@ -1,0 +1,26 @@
+{
+  "name": "omni-ra-labs-backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.7.0",
+    "google-auth-library": "^10.9.1",
+    "helmet": "^8.3.0",
+    "mongoose": "^8.9.5",
+    "multer": "^2.3.0",
+    "nodemailer": "^7.0.0",
+    "omni-ra-labs-marketplace": "file:..",
+    "rate-limit-redis": "^6.0.1",
+    "redis": "^6.2.1",
+    "socket.io": "^4.8.1"
+  }
+}
